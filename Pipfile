@@ -9,6 +9,7 @@ gunicorn = "*"
 heroku = "*"
 pytest-django = "*"
 python-decouple = "*"
+dj-database-url = "*"
 
 [dev-packages]
 pytest-cov = "*"
