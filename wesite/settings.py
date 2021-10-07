@@ -31,6 +31,8 @@ DEBUG = decouple.config('DEBUG', cast=bool)
 
 ALLOWED_HOSTS = ['*']
 
+AUTH_USER_MODEl = 'wesite.User'
+
 
 # Application definition
 
