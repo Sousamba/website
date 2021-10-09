@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('Olá, Layla da Cruz Sousa, você vai ganhar uma viagem para os Estados Unidos no Natal')
+    return HttpResponse('Olá, Layla da Cruz Sousa !!!')
 
 
