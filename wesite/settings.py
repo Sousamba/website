@@ -82,6 +82,15 @@ WSGI_APPLICATION = 'wesite.wsgi.application'
 
 # Configuração Django Debug Toolbar
 
+INTERNAL_IPS = [
+    # ...
+    '127.0.0.1',
+    # ...
+]
+
+if DEBUG:
+    INSTALLED_APPS.append('debug_toolbar')
+    MIDDLEWARE.insert(0, 'debug_toolbar.middleware.DebugToolbarMiddleware')
 
 
 # Database
