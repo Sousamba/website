@@ -5,6 +5,6 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('Olá, Hueila Saraiva de Sousa !!!')
+    return HttpResponse('<html><body>Ola, Hueila Saraiva de Sousa !!!</body></html>', content_type='text/html')
 
 

@@ -88,9 +88,7 @@ INTERNAL_IPS = [
     # ...
 ]
 
-if DEBUG:
-    INSTALLED_APPS.append('debug_toolbar')
-    MIDDLEWARE.insert(0, 'debug_toolbar.middleware.DebugToolbarMiddleware')
+
 
 
 # Database
