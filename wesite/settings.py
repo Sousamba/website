@@ -80,9 +80,6 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'wesite.wsgi.application'
 
-# Configuração Django Debug Toolbar
-
-
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
@@ -130,7 +127,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-# Configuração de ambiente de desenvolvimento
+
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
